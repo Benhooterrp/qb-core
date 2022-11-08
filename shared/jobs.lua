@@ -12,6 +12,33 @@ QBShared.Jobs = {
             },
         },
 	},
+["ammunation"] = {
+	label = "Gun Dealer",
+	defaultDuty = true,
+	grades = {
+        ['0'] = {
+            name = "Recruit",
+            payment = 250
+        },
+		['1'] = {
+            name = "Novice",
+            payment = 300
+        },
+		['2'] = {
+            name = "Experienced",
+            payment = 500
+        },
+		['3'] = {
+            name = "Advanced",
+            payment = 650
+        },
+		['4'] = {
+            name = "Manager",
+			isboss = true,
+            payment = 850
+        },
+    },
+},
     ['pizzathis'] = {
 		label = 'Pizza This',
 		defaultDuty = true,
